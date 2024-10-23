@@ -1,0 +1,564 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.nav {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.nav .navLeft {
+    width: 40%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.navLeft a {
+    font-family: "Lulo Clean One Bold";
+    font-size: 8px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.navLeft span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.nav .navRight {
+    width: 60%;
+    height: inherit;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.navRight .subLeft {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.navRight .subLeft a {
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+.navRight .subRight {
+    display: flex;
+    align-items: center;
+}
+
+.navRight .subRight a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #317F81;
+    font-size: 15px;
+}
+
+.navRight .subRight i {
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+/* NAVBAR  END*/
+
+/* SECTION 1 */
+.section1 {
+    width: 100%;
+    height: 600px;
+    background-image: url(assets/S1i1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+}
+.section1 span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 80px;
+}
+.section1 h1 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 110px;
+    line-height: 110px;
+}
+.section1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+.section1 button {
+    border: 2px solid black;
+    font-family: "Montserrat", sans-serif;
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.section1 button:hover {
+    background-color: #fff;
+    color: black;
+}
+/* SECTION 1 END */
+
+
+/* SECTION 2 */
+.section2 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.section2 .sec2Left {
+    width: 45%;
+    height: inherit;
+    margin-left: 160px;
+    padding-right: 90px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.sec2Left .border {
+    border-top: 2px solid black;
+    width: 40px;
+}
+
+.sec2Left h1 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 38px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 18px;
+    line-height: 45px;
+}
+
+.sec2Left span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+
+.sec2Left .buttons {
+    width: 80%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.buttons .b1 button {
+    border: 2px solid black;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons .b1 button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.buttons .b2 button {
+    border: 2px solid black;
+    width: 180px;
+    height: 40px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons .b2 button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.section2 .sec2Right {
+    width: 60%;
+    height: inherit;
+}
+
+.sec2Right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* SECTION 2 END */
+
+
+/* SECTION 3 */
+.section3 {
+    width: 100%;
+    height: 900px;
+    background-image: url(assets/S3i1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .border {
+    border-top: 2px solid black;
+    width: 40px;
+    margin-left: 12.5%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.section3 .subsec3 {
+    width: 75%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12.5%;
+}
+
+.section3 h1 {
+    font-family: "Lulo Clean One Bold";
+    margin-left: 12.5%;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 48px;
+    margin-bottom: 50px;
+}
+
+.subsec3 .s1 {
+    border: 5px solid black;
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2%;
+    padding-top: 20px;
+}
+
+.s1 .s1br1 {
+    border: 1.5px solid black;
+    width: 96%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.s1 h2 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 20px;
+}
+
+.s1 .pmid1 {
+    width: 96%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.s1 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.subsec3 .s1 button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 100px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.subsec3 .s2 {
+    border: 5px solid black;
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2%;
+    padding-top: 20px;
+}
+
+.s2 .s1br2 {
+    border: 1.5px solid black;
+    width: 96%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.s2 h2 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 20px;
+}
+
+.s2 .pmid2 {
+    width: 96%;
+    display: flex;
+    margin-top: 30px;
+}
+
+.s2 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subsec3 .s2 button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.subsec3 .s3 {
+    border: 5px solid black;
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2%;
+    padding-top: 20px;
+}
+
+.subsec3 .s3 {
+    border: 5px solid black;
+    width: 30%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 2%;
+    padding-top: 20px;
+}
+
+.s3 .s1br3 {
+    border: 1.5px solid black;
+    width: 96%;
+    height: 1px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.s3 h2 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 20px;
+}
+
+.s3 .pmid3 {
+    width: 96%;
+    display: flex;
+    margin-top: 20px;
+}
+
+.s3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.subsec3 .s3 button {
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+}
+
+.section3 .buttons button {
+    border: 1px solid black;
+    width: 15%;
+    height: 40px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 42.5%;
+    margin-top: 97.5px;
+}
+
+.section3 .buttons button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+/* SECTION 3  END*/
+
+
+/* FOOTER */
+
+.foot {
+    width: 100%;
+    height: 600px;
+    background-color: #57BBBF;
+    display: flex;
+}
+
+.foot .footLeft {
+    width: 50%;
+    height: inherit;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footLeft .footbr1 {
+    border: 1.5px solid black;
+    width: 40px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footLeft h2 {
+    font-family: "Lulo Clean One Bold";
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.footLeft p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footLeft span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.footLeft a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.footLeft .ficons i {
+    font-size: 24px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.foot .footRight {
+    width: 60%;
+    height: inherit;
+    padding-top: 60px;
+}
+
+.footRight form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footRight p {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 12px;
+}
+
+.footRight input {
+    border: 2px solid black;
+    width: 420px;
+    height: 40px;
+    background-color: #57BBBF;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.footRight textarea {
+    border: 2px solid black;
+    width: 420px;
+    height: 130px;
+    background-color: #57BBBF;
+    margin-bottom: 12px;
+    outline: none;
+}
+
+.footRight button {
+    border: 2px solid black;
+    width: 130px;
+    height: 35px;
+    color: #fff;
+    background-color: black;
+    margin-left: 48.5%;
+    margin-top: 8px;
+}
+
+.footRight button:hover {
+    color: black;
+    background-color: #fff;
+}
+
+.footRight span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+/* FOOTER END */
+
+/* MEDIA QUERY */
+@media (min-width: 0px) and (max-width: 414px) {
+    
+}
+/* MEDIA QUERY */
